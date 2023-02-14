@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='Css/third_page.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='video/future_purpose/favicon.png')}}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <title>Singer Selection</title>
+    
+</head>
+<body>
+        <header>
+            <div class="navbar-icon-cls">
+                <a href="" class="music-l">
+                    थोड़ा सा
+                    <img src="{{url_for('static', filename='video/future_purpose/headphones2.jpg')}}" width="120" height:"80" border-radius:"20px" class="navbar-icon" alt="">
+                     हो जाये </a>
+            </div>
+            
+          <nav class="site-nav">
+            <ul>
+              <li><a href="#">Yours Library</a></li>
+              <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">About Us</a></li>
+              <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Contact Us</a></li>
+            </ul>
+          </nav>
+          
+          
+        </header>
+        <section >
+            <div class="below-nav">
+                <h2> You can select any of the Punjabi Singer</h2>
+              </div>
+        </section>
+        <section>
+
+              <div class="fcontainer">
+                <a href="">English Singer</a>
+                <div class="f-item">
+                    
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-1.jpg')}}" onclick="handleclick_3('Ed Sheeran')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-2.webp')}}" onclick="handleclick_3('future')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-3.webp')}}" onclick="handleclick_3('drake')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-4.webp')}}" onclick="handleclick_3('lil baby')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-5.webp')}}" onclick="handleclick_3('chris brown')" alt="Snow"></a>
+                    
+                </div>
+              </div>
+              <div class="fcontainer">
+                <br>
+                <br>
+                <br>
+                <div class="f-item">
+                                        
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-6.webp')}}" onclick="handleclick_3('Aitch')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-7.webp')}}" onclick="handleclick_3('taylor swift')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-8.webp')}}" onclick="handleclick_3('Madison Beer')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-9.webp')}}" onclick="handleclick_3('selena gomez')" alt="Snow"></a>
+                    <a href={{url_for('final')}}><img src="{{url_for('static', filename='video/music_images/eg-10.webp')}}" onclick="handleclick_3('miley cyrus')" alt="Snow"></a>
+
+                    
+
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+
+        </section>
+
+        <footer>
+            <ul class="icons">
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">About</a></li>
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Contact Us</a></li>
+            </ul>
+                <div class="footer-copyright">
+                    <p>Copyright @ 2022 All Rights Reserved to Rishabhsharma.</p>
+                </div>
+        </footer>
+        <script type="text/javascript" src="{{url_for('static', filename='JavaScript/script.js')}}"></script>
+</body>
+
+
+
+</html>

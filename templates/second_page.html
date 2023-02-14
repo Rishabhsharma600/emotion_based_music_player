@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='Css/second_page.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='video/future_purpose/favicon.png')}}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <title>Language Selection</title>
+    
+</head>
+
+
+
+<body>
+        <header>
+            <div class="navbar-icon-cls">
+                <a href="" class="music-l">
+                    थोड़ा सा
+                    <img src="{{url_for('static', filename='video/future_purpose/headphones2.jpg')}}"  width="120" height:"80" border-radius:"20px" class="navbar-icon" alt="">
+                     हो जाये </a>
+            </div>
+
+          <nav class="site-nav">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Yours Library</a></li>
+              <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">About Us</a></li>
+              <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Contact Us</a></li>
+            </ul>
+          </nav>
+          
+          
+        </header>
+        <section >
+            <div class="below-nav">
+                <h2> So How Was Your Day ?</h2>
+                <h2>Select a track of Choice :-)</h2>
+              </div>
+        </section>
+        <section>
+
+              <div class="fcontainer">
+                <a href="">Trending Punjabi</a>
+                <div class="f-item">
+                    
+
+                    <a href={{url_for('tpunjabi')}}><img src="{{url_for('static', filename='video/music_images/punjabi_1.webp')}}" onclick="handleclick('punjabi')" alt="Snow"></a>
+                    <a href={{url_for('tpunjabi')}}><img src="{{url_for('static', filename='video/music_images/punjabi_2.webp')}}" onclick="handleclick('punjabi')" alt="Snow"></a>
+                    <a href={{url_for('tpunjabi')}}><img src="{{url_for('static', filename='video/music_images/punjabi_3.webp')}}" onclick="handleclick('punjabi')" alt="Snow"></a>
+                    <a href={{url_for('tpunjabi')}}><img src="{{url_for('static', filename='video/music_images/punjabi_4.webp')}}" onclick="handleclick('punjabi')" alt="Snow"></a>
+                    <a href={{url_for('tpunjabi')}}><img src="{{url_for('static', filename='video/music_images/punjabi_5.webp')}}" onclick="handleclick('punjabi')" alt="Snow"></a>
+                    
+                </div>
+              </div>
+              <div class="fcontainer">
+                <a href="">Trending hindi</a>
+
+                <div class="f-item">
+                                        
+                    <a href={{url_for('thindi')}}><img src="{{url_for('static', filename='video/music_images/Pathaan.webp')}}" onclick="handleclick('hindi')" alt="Snow"></a>
+                    <a href={{url_for('thindi')}}><img src="{{url_for('static', filename='video/music_images/misson majnu.webp')}}" onclick="handleclick('hindi')" alt="Snow"></a>
+                    <a href={{url_for('thindi')}}><img  src="{{url_for('static', filename='video/music_images/bijli.webp')}}" onclick="handleclick('hindi')" alt="Snow"></a>
+                    <a href={{url_for('thindi')}}><img  src="{{url_for('static', filename='video/music_images/Pathaan.webp')}}" onclick="handleclick('hindi')" alt="Snow"></a>
+                    <a href={{url_for('thindi')}}><img  src="{{url_for('static', filename='video/music_images/tum_mile.webp')}}" onclick="handleclick('hindi')" alt="Snow"></a>
+
+                </div>
+              </div>
+              <div class="fcontainer">
+                <a href="">Treding English</a>
+                <div class="f-item">
+                    
+                    <a href={{url_for('tenglish')}}><img src="{{url_for('static', filename='video/music_images/english_2.webp')}}" onclick="handleclick('english')" alt="Snow"></a>
+                    <a href={{url_for('tenglish')}}><img src="{{url_for('static', filename='video/music_images/english_3.webp')}}" onclick="handleclick('english')" alt="Snow"></a>
+                    <a href={{url_for('tenglish')}}><img src="{{url_for('static', filename='video/music_images/english_4.webp')}}" onclick="handleclick('english')" alt="Snow"></a>
+                    <a href={{url_for('tenglish')}}><img src="{{url_for('static', filename='video/music_images/english_5.webp')}}" onclick="handleclick('english')" alt="Snow"></a>
+                    <a href={{url_for('tenglish')}}><img src="{{url_for('static', filename='video/music_images/english_6.webp')}}" onclick="handleclick('english')" alt="Snow"></a>
+                    
+                </div>
+              </div>
+              <div class="fcontainer">
+                <a href="">Treding K-pop</a>
+                <div class="f-item">
+                    
+                    <a href={{url_for('tkorean')}}><img src="{{url_for('static', filename='video/music_images/k-pop-1.webp')}}" onclick="handleclick('korean')" alt="Snow"></a>
+                    <a href={{url_for('tkorean')}}><img src="{{url_for('static', filename='video/music_images/k-pop-2.webp')}}" onclick="handleclick('korean')" alt="Snow"></a>
+                    <a href={{url_for('tkorean')}}><img src="{{url_for('static', filename='video/music_images/k-pop-3.webp')}}" onclick="handleclick('korean')" alt="Snow"></a>
+                    <a href={{url_for('tkorean')}}><img src="{{url_for('static', filename='video/music_images/k-pop-4.webp')}}" onclick="handleclick('k`')" alt="Snow"></a>
+                    <a href={{url_for('tkorean')}}><img src="{{url_for('static', filename='video/music_images/k-pop-5.webp')}}" onclick="handleclick('korean')" alt="Snow"></a>
+                    
+                </div>
+              </div>
+              <br>
+              <br>
+        </section>
+
+        <footer>
+            <ul class="icons">
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">About</a></li>                    
+                    <li><a href="https://www.linkedin.com/in/rishabh-sharma-348595147/">Contact Us</a></li>
+            </ul>
+                <div class="footer-copyright">
+                    <p>Copyright @ 2022 All Rights Reserved Rishabhsharma.</p>
+                </div>
+        </footer>
+          <script type="text/javascript" src="{{url_for('static', filename='JavaScript/script.js')}}"></script>
+</body>
+
+
+
+</html>
